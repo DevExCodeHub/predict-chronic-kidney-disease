@@ -122,16 +122,29 @@ We will partition the dataset to percentage of 70% for training and 30% for test
 
 ### Fit the classification model. 
 
-We will be using a C5.0 algorithm to build a decision tree . A C5.0 model works by splitting the data based on the field that provides the maximum information gain.You can see node C5.0 under the Modeling section of the nodes palette.
+We will be using a C5.0 algorithm to build a decision tree. A C5.0 model works by splitting the data based on the field that provides the maximum information gain.You can see **node C5.0** under the Modeling section of the nodes palette.
+
+Select the target of the model (class) from the drop down menu, select the input as all fields except partition. Finally, choose partition for partiotion option.
+
+![Screenshot (28)](https://user-images.githubusercontent.com/37486654/59596365-3a8f2d00-9100-11e9-9654-9b73159b7b2d.png)
+
+In the Build Option, check (use partitioned data)
+
+![Screenshot (29)](https://user-images.githubusercontent.com/37486654/59596366-3a8f2d00-9100-11e9-9872-119ec42230e2.png)
+
 
 
 Right-click on the **orange color node** and view the model. You can see predictor importance, tree digram, and other model information here.
 
+![Screenshot (31)](https://user-images.githubusercontent.com/37486654/59591310-7ae9ad80-90f6-11e9-92f0-3b772c7cb946.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/37486654/59591312-7ae9ad80-90f6-11e9-8500-884ff6440a8f.png)
+
 ### Evaluate model performance
 Select the Analysis node from the Output section of the node palette and connect it with the model. Similarly, use the Table node to view data in a table format with predicted labels and confidence.
 
+![Screenshot (33) - Copy](https://user-images.githubusercontent.com/37486654/59591313-7b824400-90f6-11e9-9306-cd0677f028c2.png)
 
 ## Reference
-Snehal Gawas, [Predict Chronic Kidney Disease Using SPSS Modeler Flows]
-https://medium.com/ibm-data-science-experience/predict-chronic-kidney-disease-using-spss-modeler-flows-cf82a16835a8
+Snehal Gawas, [Predict Chronic Kidney Disease Using SPSS Modeler Flows](
+https://medium.com/ibm-data-science-experience/predict-chronic-kidney-disease-using-spss-modeler-flows-cf82a16835a8)
 
