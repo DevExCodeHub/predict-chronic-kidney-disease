@@ -49,12 +49,12 @@ Before starting with the analysis, let’s have a look at different node options
 
 On left side panel (Nodes Palette) you can see different types of nodes available for you to use while working on your data. There are six types of node categories:
 
-    Record Operations: As the name suggests, you can use them to perform operations such as selecting, appending, sorting on the record (row) level.
-    Field Operations: These nodes are helpful in the data preparation phase. You can filter data, rename features, and choose the type of your attributes.
-    Graphs: Nodes in this section will help you with basic data exploration and understanding distribution or relationship between features.
-    Modeling: These nodes provide different modeling algorithms for different types of problems.
-    Outputs: These nodes are helpful in understanding your data and model. You can display results in table format or get a report on evaluation parameters of your model.
-    Export: After processing and modeling, this node will help you export data from the flow editor to your DSX project.
+1. Record Operations: As the name suggests, you can use them to perform operations such as selecting, appending, sorting on the record (row) level.
+2.Field Operations: These nodes are helpful in the data preparation phase. You can filter data, rename features, and choose the type of your attributes.
+3. Graphs: Nodes in this section will help you with basic data exploration and understanding distribution or relationship between features.
+4. Modeling: These nodes provide different modeling algorithms for different types of problems.
+5. Outputs: These nodes are helpful in understanding your data and model. You can display results in table format or get a report on evaluation parameters of your model.
+6. Export: After processing and modeling, this node will help you export data from the flow editor to your Watson Studio project.
 
 
 
