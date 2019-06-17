@@ -40,12 +40,17 @@ Then Choose a **Standard plan**
 
 ### Add the dataset to the project from Community
 
+From **Import** drag and drop data set node, navigate through to add the chronic kidney disease dataset from the project in the canvas.
+Click **Save** when you have changed the data source successfully.
+
 ![Screenshot (17)](https://user-images.githubusercontent.com/37486654/59591316-7b824400-90f6-11e9-95b2-5662535bf661.png)
 ![Screenshot (18)](https://user-images.githubusercontent.com/37486654/59591318-7c1ada80-90f6-11e9-816a-43f130a5587b.png)
 ![Screenshot (19)](https://user-images.githubusercontent.com/37486654/59591293-77562680-90f6-11e9-8eba-dbd2c0734955.png)
 
 ### Create SPSS Modeler Flow
 Give a name and description to the flow and select the IBM SPSS Modeler runtime.
+
+![Screenshot (14)](https://user-images.githubusercontent.com/37486654/59591315-7b824400-90f6-11e9-9b0d-c9d373c7db09.png)
 
 ## Nodes In IBM SPSS Modeler Flow:
 
