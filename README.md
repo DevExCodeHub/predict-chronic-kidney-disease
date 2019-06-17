@@ -109,10 +109,16 @@ sg = '?' or al= '?' or su= '?' or rbc= '?' or pc= '?' or pcc= '?' or ba= '?' or 
 
 The data is clean now, we can set our class variable as the target variable using the **Type** node. It will help our model to distinguish between input and target features.
 
-![Screenshot (26)](https://user-images.githubusercontent.com/37486654/59591303-79b88080-90f6-11e9-99fb-548d0fc4f008.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/37486654/59591302-791fea00-90f6-11e9-9825-c653f4fdb587.png)
 
 1. Drag and drop the Type node on the canvas, connect it with Select node, right click and open the node.
 2. Click on configure types. Select column name class, change role to target hit ok and then save.
+
+### Partition the dataset
+
+We will partition the dataset to percentage of 70% for training and 30% for testing.
+
+![Screenshot (30)](https://user-images.githubusercontent.com/37486654/59591309-7ae9ad80-90f6-11e9-8dfd-9dfd1d25c2d0.png)
 
 ### Fit the classification model. 
 
@@ -123,4 +129,9 @@ Right-click on the **orange color node** and view the model. You can see predict
 
 ### Evaluate model performance
 Select the Analysis node from the Output section of the node palette and connect it with the model. Similarly, use the Table node to view data in a table format with predicted labels and confidence.
+
+
+## Reference
+Snehal Gawas, [Predict Chronic Kidney Disease Using SPSS Modeler Flows]
+https://medium.com/ibm-data-science-experience/predict-chronic-kidney-disease-using-spss-modeler-flows-cf82a16835a8
 
