@@ -40,12 +40,25 @@ Then Choose a **Standard plan**
 
 ### Add the dataset to the project from Community
 
-From **Import** drag and drop data set node, navigate through to add the chronic kidney disease dataset from the project in the canvas.
-Click **Save** when you have changed the data source successfully.
+From the Left menu in Watson Studio, choose Community
 
-![Screenshot (17)](https://user-images.githubusercontent.com/37486654/59591316-7b824400-90f6-11e9-95b2-5662535bf661.png)
-![Screenshot (18)](https://user-images.githubusercontent.com/37486654/59591318-7c1ada80-90f6-11e9-816a-43f130a5587b.png)
-![Screenshot (19)](https://user-images.githubusercontent.com/37486654/59591293-77562680-90f6-11e9-8eba-dbd2c0734955.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/37486654/59593500-c00fde80-90fa-11e9-8a1f-e192d41d8ad1.png)
+Search for 'Chronic kidney disease'
+
+![Screenshot (35)](https://user-images.githubusercontent.com/37486654/59593505-c1410b80-90fa-11e9-93b3-4b78ec7830f9.png)
+
+Choose the correct search result and add it to your project from the **plus** icon.
+
+![Screenshot (37)](https://user-images.githubusercontent.com/37486654/59593507-c1d9a200-90fa-11e9-8e46-29cbb9d75ad6.png)
+
+Select your project from drop down menu and press add.
+
+
+![Screenshot (38)](https://user-images.githubusercontent.com/37486654/59593508-c1d9a200-90fa-11e9-9e32-d59f986fd441.png)
+
+Navigate back to your project
+
+![Screenshot (39)](https://user-images.githubusercontent.com/37486654/59593509-c2723880-90fa-11e9-9e9a-9d3a1bc4e566.png)
 
 ### Create SPSS Modeler Flow
 Give a name and description to the flow and select the IBM SPSS Modeler runtime.
@@ -65,6 +78,14 @@ On left side panel (Nodes Palette) you can see different types of nodes availabl
 5. Outputs: These nodes are helpful in understanding your data and model. You can display results in table format or get a report on evaluation parameters of your model.
 6. Export: After processing and modeling, this node will help you export data from the flow editor to your Watson Studio project.
 
+### Import the dataset to the flow
+
+From **Import** drag and drop (data assset) node, navigate through to add the chronic kidney disease dataset from the project in the canvas.
+Click **Save** when you have changed the data source successfully.
+
+![Screenshot (17)](https://user-images.githubusercontent.com/37486654/59591316-7b824400-90f6-11e9-95b2-5662535bf661.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/37486654/59591318-7c1ada80-90f6-11e9-816a-43f130a5587b.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/37486654/59591293-77562680-90f6-11e9-8eba-dbd2c0734955.png)
 ## Data Cleaning
 
 There are two issues to deal with in the dataset, few columns have missing value (?) as mode. We can drop those features using the Filter node, and then we will drop rows with missing values using the Select node. In this way, we can retain the maximum number of records.
