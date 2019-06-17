@@ -56,7 +56,7 @@ Choose the correct search result and add it to your project from the **plus** ic
 Navigate back to your project
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/37486654/59593508-c1d9a200-90fa-11e9-9e32-d59f986fd441.png)
-![Screenshot (39)](https://user-images.githubusercontent.com/37486654/59593509-c2723880-90fa-11e9-9e9a-9d3a1bc4e566.png)
+
 
 ### Create SPSS Modeler Flow
 Give a name and description to the flow and select the IBM SPSS Modeler runtime.
@@ -84,6 +84,7 @@ Click **Save** when you have changed the data source successfully.
 ![Screenshot (17)](https://user-images.githubusercontent.com/37486654/59591316-7b824400-90f6-11e9-95b2-5662535bf661.png)
 ![Screenshot (18)](https://user-images.githubusercontent.com/37486654/59591318-7c1ada80-90f6-11e9-816a-43f130a5587b.png)
 ![Screenshot (19)](https://user-images.githubusercontent.com/37486654/59591293-77562680-90f6-11e9-8eba-dbd2c0734955.png)
+
 ## Data Cleaning
 
 There are two issues to deal with in the dataset, few columns have missing value (?) as mode. We can drop those features using the Filter node, and then we will drop rows with missing values using the Select node. In this way, we can retain the maximum number of records.
@@ -91,14 +92,24 @@ There are two issues to deal with in the dataset, few columns have missing value
 ### Drop Columns
 
 1. To drop columns drag and drop Filter node on the canvas and connect it with data node.
-2. Right click and open the node. Select below columns under filter section [bgr,sod,pot,hemo,pcv,wbcc & rbcc] make sure to check box — Filter selected fields and hit save button.
+2. Right click and open the node. Select below columns under filter section [bgr,sod,pot,hemo,pcv,wbcc & rbcc] 
+**make sure to check box** — Filter selected fields and hit save button.
+
+![Screenshot (20)](https://user-images.githubusercontent.com/37486654/59591294-77eebd00-90f6-11e9-95ed-a4951901809d.png)
 
 ### Drop Rows
 
 1. Drag and drop Select node on the canvas, connect it with Filter node, right click and open the node.
-2. Select discard mode and provide below condition to remove rows with missing values.
+2. Select **discard mode** and provide **below condition** to remove rows with missing values.
+```
+sg = '?' or al= '?' or su= '?' or rbc= '?' or pc= '?' or pcc= '?' or ba= '?' or bu= '?' or appet= '?' or pe= '?' or ane= '?'
+```
+
+![Screenshot (23)](https://user-images.githubusercontent.com/37486654/59591299-78875380-90f6-11e9-876a-1337c16846ed.png)
 
 The data is clean now, we can set our class variable as the target variable using the **Type** node. It will help our model to distinguish between input and target features.
+
+![Screenshot (26)](https://user-images.githubusercontent.com/37486654/59591303-79b88080-90f6-11e9-99fb-548d0fc4f008.png)
 
 1. Drag and drop the Type node on the canvas, connect it with Select node, right click and open the node.
 2. Click on configure types. Select column name class, change role to target hit ok and then save.
