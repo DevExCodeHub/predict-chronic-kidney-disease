@@ -47,17 +47,15 @@ Search for 'Chronic kidney disease'
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/37486654/59593505-c1410b80-90fa-11e9-93b3-4b78ec7830f9.png)
 
-Choose the correct search result and add it to your project from the **plus** icon.
+Choose the correct search result and add it to your project from the **plus** icon. Select your project from drop down menu and press add.
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/37486654/59593507-c1d9a200-90fa-11e9-8e46-29cbb9d75ad6.png)
 
-Select your project from drop down menu and press add.
 
-
-![Screenshot (38)](https://user-images.githubusercontent.com/37486654/59593508-c1d9a200-90fa-11e9-9e32-d59f986fd441.png)
 
 Navigate back to your project
 
+![Screenshot (38)](https://user-images.githubusercontent.com/37486654/59593508-c1d9a200-90fa-11e9-9e32-d59f986fd441.png)
 ![Screenshot (39)](https://user-images.githubusercontent.com/37486654/59593509-c2723880-90fa-11e9-9e9a-9d3a1bc4e566.png)
 
 ### Create SPSS Modeler Flow
