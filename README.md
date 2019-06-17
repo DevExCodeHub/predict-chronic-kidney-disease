@@ -40,6 +40,10 @@ Then Choose a **Standard plan**
 
 ### Add the dataset to the project from Community
 
+![Screenshot (17)](https://user-images.githubusercontent.com/37486654/59591316-7b824400-90f6-11e9-95b2-5662535bf661.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/37486654/59591318-7c1ada80-90f6-11e9-816a-43f130a5587b.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/37486654/59591293-77562680-90f6-11e9-8eba-dbd2c0734955.png)
+
 ### Create SPSS Modeler Flow
 Give a name and description to the flow and select the IBM SPSS Modeler runtime.
 
@@ -61,10 +65,12 @@ On left side panel (Nodes Palette) you can see different types of nodes availabl
 There are two issues to deal with in the dataset, few columns have missing value (?) as mode. We can drop those features using the Filter node, and then we will drop rows with missing values using the Select node. In this way, we can retain the maximum number of records.
 
 ### Drop Columns
+
 1. To drop columns drag and drop Filter node on the canvas and connect it with data node.
 2. Right click and open the node. Select below columns under filter section [bgr,sod,pot,hemo,pcv,wbcc & rbcc] make sure to check box — Filter selected fields and hit save button.
 
 ### Drop Rows
+
 1. Drag and drop Select node on the canvas, connect it with Filter node, right click and open the node.
 2. Select discard mode and provide below condition to remove rows with missing values.
 
@@ -74,6 +80,7 @@ The data is clean now, we can set our class variable as the target variable usin
 2. Click on configure types. Select column name class, change role to target hit ok and then save.
 
 ### Fit the classification model. 
+
 We will be using a C5.0 algorithm to build a decision tree . A C5.0 model works by splitting the data based on the field that provides the maximum information gain.You can see node C5.0 under the Modeling section of the nodes palette.
 
 
