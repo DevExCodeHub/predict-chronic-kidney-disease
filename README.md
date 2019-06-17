@@ -1,4 +1,4 @@
-# predict-chronic-kidney-disease
+# Predict Chronic Kidney Disease
 This repository explain how to predict chronic kidney disease using various attributes collected from hospitals. Chronic kidney disease (CKD) is a condition characterized by a gradual loss of kidney function over time, which may lead to kidney failure. 
 
 # Data Source:
@@ -11,7 +11,7 @@ We are using the UCI Chronic Kidney Disease data set from the Watson Studio comm
 
 ## Steps
 ### Create an IBM cloud account
-If you do not have an IBM Cloud account, create an account [here](https://ibm.biz/BdYpAy)
+If you do not have an IBM Cloud account, create an account [here](https://ibm.biz/BdzztD)
 - A Lite account, which is a free of charge. Make sure to set the region to US South.
 
 ### Create a Watson Studio service instance
@@ -37,4 +37,24 @@ Then Choose a **Standard plan**
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ![](https://user-images.githubusercontent.com/20974667/48709557-da421680-ec16-11e8-8c07-c90b29db12e2.png)
+
+### Add the dataset to the project from Community
+
+### Create SPSS Modeler Flow:
+Give a name and description to the flow and select the IBM SPSS Modeler runtime.
+
+## Nodes In IBM SPSS Modeler Flow:
+
+Before starting with the analysis, let’s have a look at different node options available in SPSS Modeler Flow.
+
+On left side panel (Nodes Palette) you can see different types of nodes available for you to use while working on your data. There are six types of node categories:
+
+    Record Operations: As the name suggests, you can use them to perform operations such as selecting, appending, sorting on the record (row) level.
+    Field Operations: These nodes are helpful in the data preparation phase. You can filter data, rename features, and choose the type of your attributes.
+    Graphs: Nodes in this section will help you with basic data exploration and understanding distribution or relationship between features.
+    Modeling: These nodes provide different modeling algorithms for different types of problems.
+    Outputs: These nodes are helpful in understanding your data and model. You can display results in table format or get a report on evaluation parameters of your model.
+    Export: After processing and modeling, this node will help you export data from the flow editor to your DSX project.
+
+
 
